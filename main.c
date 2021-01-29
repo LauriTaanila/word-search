@@ -14,7 +14,6 @@ void slowsort(node_t *array[], int length);
 
 //Lauri Taanila
 
-
 int main()
 {
     node_t *array[SIZE] = {};
