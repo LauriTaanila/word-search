@@ -38,12 +38,12 @@ void printlist(node_t *head){
     return;
 }
 
-void *insert_at_head(node_t **head, node_t *node_to_insert){
+void insert_at_head(node_t **head, node_t *node_to_insert){
     
         node_to_insert->next = *head;
         *head = node_to_insert;
     
-
+    
 }
 
 

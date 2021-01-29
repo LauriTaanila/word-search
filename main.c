@@ -15,7 +15,6 @@ void slowsort(node_t *array[], int length);
 int main()
 {
     node_t *array[SIZE] = {};
-    node_t *nullnode = NULL;
 
     int index;
     int wordcount = 0, difwordcount = 0;
