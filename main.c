@@ -12,6 +12,9 @@ void slowsort(node_t *array[], int length);
 
 #define SIZE 2500
 
+//Lauri Taanila
+
+
 int main()
 {
     node_t *array[SIZE] = {};
